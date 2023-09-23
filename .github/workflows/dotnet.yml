@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build eAuction.Core.API/eAuction_2.0.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test eAuction.Core.API/eAuction_2.0.sln --no-build --verbosity normal

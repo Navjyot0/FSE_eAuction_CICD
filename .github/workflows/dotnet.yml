@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore eAuction.Core.API/eAuction_2.0.sln
     - name: Build
       run: dotnet build eAuction.Core.API/eAuction_2.0.sln --no-restore
     - name: Test
